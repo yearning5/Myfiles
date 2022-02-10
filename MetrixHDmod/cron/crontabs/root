@@ -1,0 +1,10 @@
+30 * * * *    /usr/bin/ntpdate-sync silent
+00 09 * * * /oscupdate/oscupdate.sh
+01 00 * * * /oscupdate/oscupdate.sh
+00 19 * * * /oscupdate/oscupdate.sh
+00 10 * * * /usr/script/mine_epg.sh
+00 08 * * * /oscupdate/freeiptvgen.sh
+30 08 * * * /oscupdate/Journalsat.sh
+30 09 * * * /oscupdate/aumaletv.sh
+00 11 * * 6 /oscupdate/ey3_socks.sh
+00 11 * * 2 /oscupdate/ey3_socks.sh
